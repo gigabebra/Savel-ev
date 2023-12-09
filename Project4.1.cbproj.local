@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.283,=D:\C++\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.216,=D:\C++\Project1PCH1.h</Transaction>
+    <Transaction>2023.11.25 02:03:05.706,=D:\C++\Project1PCH1.h</Transaction>
+    <Transaction>2023.11.25 02:03:05.779,=D:\C++\Unit2.cpp</Transaction>
+    <Transaction>2023.11.25 02:03:33.987,C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Project4.1PCH1.h=D:\C++\Project1PCH1.h</Transaction>
+    <Transaction>2023.11.25 02:03:34.005,C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Unit2.cpp=D:\C++\Unit2.cpp</Transaction>
+    <Transaction>2023.11.25 02:03:34.005,C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Unit2.dfm=D:\C++\Unit2.dfm</Transaction>
+    <Transaction>2023.11.25 02:03:34.005,C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Unit2.h=D:\C++\Unit2.h</Transaction>
+    <Transaction>2023.11.25 02:03:34.024,C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Project4.1.cbproj=D:\C++\Project1.cbproj</Transaction>
+    <Transaction>2023.11.25 02:03:41.540,C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Unit1.dfm=C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Unit2.dfm</Transaction>
+    <Transaction>2023.11.25 02:03:41.540,C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Unit1.cpp=C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Unit2.cpp</Transaction>
+    <Transaction>2023.11.25 02:03:41.540,C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Unit1.h=C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Unit2.h</Transaction>
+    <Transaction>2023.11.25 02:03:43.366,C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Project4.1.cbproj=C:\Users\Alexander\Desktop\папка альтруизма\цифр прак Савельев\Project4.1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
