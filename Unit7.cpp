@@ -44,10 +44,12 @@ for (i=0; i<=n-1; i++)
 void __fastcall TForm2::Button1Click(TObject *Sender)
 {
 double * x;
-int pol, n, nx, ny, i,summ,otr;
+double * y;
+int pol, n, nx, ny, i,summ,otr, pol2, otr2;
 nx=Memo1->Lines->Count;
 ny = Memo2->Lines->Count;
-x=new double[nx+ny];
+x=new double[nx];
+y=new double[ny];
 for (i=0; i<=nx-1; i++)
  {
   if (TryStrToFloat(Memo1->Lines->Strings[i], x[i]))
@@ -58,16 +60,20 @@ for (i=0; i<=nx-1; i++)
  }
 for (i=0; i<=ny-1; i++)
  {
-  if (TryStrToFloat(Memo2->Lines->Strings[i], x[nx+i]))
+  if (TryStrToFloat(Memo2->Lines->Strings[i], y[i]))
    {
-	x[nx+i]=StrToFloat(Memo2->Lines->Strings[i]);
+	y[i]=StrToFloat(Memo2->Lines->Strings[i]);
    }
    else ShowMessage("ошибка синтаксиса 2");
  }
-pol =  pol1(x,nx+ny);
-otr = otr1(x,nx+ny);
+pol =  pol1(x,nx);
+otr = otr1(x,nx);
+pol2 =  pol1(y,ny);
+otr2 = otr1(y,ny);
 Label5->Caption=IntToStr(pol);
 Label6->Caption=IntToStr(otr);
+Label8->Caption=IntToStr(pol2);
+Label9->Caption=IntToStr(otr2);
 // i=0;
 // while (i<=nx+ny-1)
 // {
@@ -77,3 +83,4 @@ Label6->Caption=IntToStr(otr);
 }
 
 //---------------------------------------------------------------------------
+
