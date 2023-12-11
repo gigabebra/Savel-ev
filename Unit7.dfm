@@ -2,8 +2,8 @@ object Form2: TForm2
   Left = 0
   Top = 0
   Caption = 'Form2'
-  ClientHeight = 424
-  ClientWidth = 618
+  ClientHeight = 406
+  ClientWidth = 608
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -60,14 +60,14 @@ object Form2: TForm2
   object Label8: TLabel
     Left = 336
     Top = 283
-    Width = 21
+    Width = 3
     Height = 15
   end
   object Label9: TLabel
     Left = 336
     Top = 352
-    Width = 21
-    Height = 25
+    Width = 3
+    Height = 15
   end
   object Label10: TLabel
     Left = 331

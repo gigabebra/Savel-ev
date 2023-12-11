@@ -45,7 +45,7 @@ void __fastcall TForm2::Button1Click(TObject *Sender)
 {
 double * x;
 double * y;
-int pol, n, nx, ny, i,summ,otr, pol2, otr2;
+int n, nx, ny, i,summ;
 nx=Memo1->Lines->Count;
 ny = Memo2->Lines->Count;
 x=new double[nx];
@@ -66,14 +66,10 @@ for (i=0; i<=ny-1; i++)
    }
    else ShowMessage("ошибка синтаксиса 2");
  }
-pol =  pol1(x,nx);
-otr = otr1(x,nx);
-pol2 =  pol1(y,ny);
-otr2 = otr1(y,ny);
-Label5->Caption=IntToStr(pol);
-Label6->Caption=IntToStr(otr);
-Label8->Caption=IntToStr(pol2);
-Label9->Caption=IntToStr(otr2);
+Label5->Caption=FloatToStr(pol1(x,nx));
+Label6->Caption=FloatToStr(otr1(x,nx));
+Label8->Caption=FloatToStr(pol1(y,ny));
+Label9->Caption=FloatToStr(otr1(y,ny));
 // i=0;
 // while (i<=nx+ny-1)
 // {
