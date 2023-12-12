@@ -54,17 +54,15 @@ for (i=0; i<=nx-1; i++)
  {
   if (TryStrToFloat(Memo1->Lines->Strings[i], x[i]))
    {
-	x[i]=StrToFloat(Memo1->Lines->Strings[i]);
    }
-   else ShowMessage("ошибка синтаксиса 1");
+   else ShowMessage("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 1");
  }
 for (i=0; i<=ny-1; i++)
  {
   if (TryStrToFloat(Memo2->Lines->Strings[i], y[i]))
    {
-	y[i]=StrToFloat(Memo2->Lines->Strings[i]);
    }
-   else ShowMessage("ошибка синтаксиса 2");
+   else ShowMessage("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2");
  }
 Label5->Caption=FloatToStr(pol1(x,nx));
 Label6->Caption=FloatToStr(otr1(x,nx));
